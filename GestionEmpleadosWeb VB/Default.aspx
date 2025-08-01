@@ -4,9 +4,11 @@
 <%@ Register TagPrefix="uc2" TagName="Boton2" Src="~/Controles/Boton2.ascx" %>
 
 <!DOCTYPE html>
+
+<!-- Este es un comentario de prueba!-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Gestión de Empleados</title>
+    <title>Gestión de Empleado</title>
 </head>
 <body>
     <form id="form1" runat="server">
