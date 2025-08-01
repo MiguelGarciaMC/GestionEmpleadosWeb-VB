@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeFile="Boton.ascx.vb" Inherits="Controles_Boton" %>
+<asp:Button ID="btnPersonalizado" runat="server" Text="Haz clic" OnClick="btnPersonalizado_Click" CssClass="t-button" />
