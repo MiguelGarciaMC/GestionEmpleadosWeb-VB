@@ -31,10 +31,10 @@
 
         <h2>Listado de Empleados</h2>
         <telerik:RadGrid ID="RadGrid1" runat="server"
-            AllowPaging="true" PageSize="10"
+            AllowPaging="false" PageSize="10"
             AllowFilteringByColumn="true"
-            AllowSorting="true"
-            AutoGenerateColumns="True"
+            AllowSorting="false"
+            AutoGenerateColumns="false"
             OnNeedDataSource="RadGrid1_NeedDataSource"
             OnUpdateCommand="RadGrid1_UpdateCommand"
             OnDeleteCommand="RadGrid1_DeleteCommand">
